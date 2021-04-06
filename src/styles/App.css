@@ -1,0 +1,53 @@
+.app {
+  text-align: center;
+  background: white;
+  width: 40rem;
+  height: 30rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10rem;
+  box-shadow: 3px 3px 8px 5px rgba(0, 0, 0, 0.3);
+}
+
+.result-list {
+  list-style: none;
+  padding: 1rem;
+}
+
+.result-list li {
+  margin-top: 0.2rem;
+  background: #01657F;
+  line-height: 2rem;
+  padding-left: 0.2rem;
+  padding-right: 0.2rem;
+  border-radius: 6px;
+
+  color: white;
+}
+
+.search-control-wrapper input {
+  padding-left: 10px;
+  height: 2.5rem;
+  width: 20rem;
+  border-radius: 6px;
+  margin: 0.5rem;
+  border: 2px solid #01657F;
+}
+
+.search-control-wrapper input:focus {
+  outline: none;
+}
+
+.text-welcome {
+  color: #01657F
+}
+
+.text-type {
+  color: #3184cd;
+}
+
+.text-no-result {
+  color: red;
+}
